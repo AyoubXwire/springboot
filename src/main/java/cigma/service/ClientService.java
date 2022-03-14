@@ -40,9 +40,10 @@ public class ClientService implements IClientService {
     @Override
     @Transactional
     public Client update(Client newClient) {
-        Client oldClient = clientRepository.findById(newClient.getId());
-        oldClient.setName(newClient.getName());
-        return clientRepository.save(oldClient);
+        //Client oldClient = clientRepository.findById(newClient.getId());
+        //oldClient.setName(newClient.getName());
+        //return clientRepository.save(oldClient);
+        return null;
     }
 
 }
