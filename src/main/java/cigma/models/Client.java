@@ -20,7 +20,6 @@ public class Client {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "full_name")
     private String name;
 
 }
